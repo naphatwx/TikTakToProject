@@ -1,12 +1,12 @@
 const getInformation= (user) => {
-    return  fetch(`http://localhost:5000/Player/${user}`)
+    return  fetch(`https://tiktaktoprojectback.onrender.com/Player/${user}`)
         .then(resp => resp.json())
         .catch(error => `ERROR cannot read data: ${error}`);
 }
 
 const getUser= async () => {
     try {
-        const res = await fetch(`http://localhost:5000/CurrentUser/user`)
+        const res = await fetch(`https://tiktaktoprojectback.onrender.com/CurrentUser/user`)
             const user = await res.json()
             return user
     } catch (error) {
