@@ -1,6 +1,7 @@
 const addNewSlot = async (information) => {
     try {
-        const res = await fetch(`http://localhost:5000/Player/${information.id}`,
+        // const res = await fetch(`http://localhost:5000/Player/${information.id}`
+        const res = await fetch(`https://tiktaktoprojectback.onrender.com/Player/${information.id}`,
             {
                 method: 'PUT',
                 headers: {
