@@ -1,6 +1,7 @@
 const getAccount = async () => {
     try {
-        const res = await fetch('http://localhost:5000/Player')
+        // const res = await fetch('http://localhost:5000/Player')
+        const res = await fetch('https://tiktaktoprojectback.onrender.com//Player')
         if(res.ok) {
           const account = await res.json()
           return account
