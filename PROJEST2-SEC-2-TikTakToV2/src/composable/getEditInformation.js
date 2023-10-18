@@ -22,7 +22,8 @@ const addNewSlot = async (information) => {
 
 const setCurrentUser = async (user) => {
     try {
-        const res = await fetch(`http://localhost:5000/CurrentUser/user`,
+        // const res = await fetch(`http://localhost:5000/CurrentUser/user`
+        const res = await fetch(`https://tiktaktoprojectback.onrender.com/CurrentUser/user`,
             {
                 method: 'PUT',
                 headers: {
