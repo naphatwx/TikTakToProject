@@ -1,0 +1,14 @@
+{
+  "name": "projectjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-clinet" :"cd PROJEST2-SEC-2-TikTakToV2 && npm install",
+    "build-client" : "cd PROJEST2-SEC-2-TikTakToV2 && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "mockupproject",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "json-server --watch ./data/db.json --port 5000"
+  },
+  "dependencies": {
+    "daisyui": "^2.50.1",
+    "json-server": "^0.17.3",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  },
+  "description": "64130500063 ภัทรกร คุณเจริญ 19% Mapping, Router, PopUp<br>\r 64130500067 ภูผา ป้อมเงิน 22% Fetch, JSON-SERVER, Function<br>\r 64130500069 ภูรินท์ พีรโชติกพันธุ์ 19% UI, Component, Router<br>\r 64130500103 นภัทร วัฒนรัตนกุล 19% Fetch, VDO, PopUp<br>\r 64130500120 พัชรพล แก้วเกษ 21% Mapping, Function, Router<br>",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napat103/PROJEST2-SEC-2-TikTakToV2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/napat103/PROJEST2-SEC-2-TikTakToV2/issues"
+  },
+  "homepage": "https://github.com/napat103/PROJEST2-SEC-2-TikTakToV2#readme"
+}
