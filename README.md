@@ -1,12 +1,4 @@
-# PROJEST2-SEC-2-TikTakToV2
-
-# Members
-64130500063 ภัทรกร คุณเจริญ 19% Mapping, Router, PopUp<br>
-64130500067 ภูผา ป้อมเงิน 22% Fetch, JSON-SERVER, Function<br>
-64130500069 ภูรินท์ พีรโชติกพันธุ์ 19% UI, Component, Router<br>
-64130500103 นภัทร วัฒนรัตนกุล 19% Fetch, VDO, PopUp<br>
-64130500120 พัชรพล แก้วเกษ 21% Mapping, Function, Router<br>
-
+# TikTakToProject
 
 <h1>Features</h1>
 <ul>
