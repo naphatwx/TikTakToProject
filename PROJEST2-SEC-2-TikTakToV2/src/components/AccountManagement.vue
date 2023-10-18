@@ -39,7 +39,7 @@ const cancelFromAddEdit = async () => {
 
 const deleteAcc = async (playId) => {
     try {
-        const res = await fetch(`http://localhost:5000/Player/${playId}`, { method: 'DELETE' }) //Delete backend
+        const res = await fetch(`https://tiktaktoprojectback.onrender.com/Player/${playId}`, { method: 'DELETE' }) //Delete backend
         if (res.ok) {
             account.value = account.value.filter((acc) => acc.id !== playId) //Delete frontend
         } else {
@@ -65,7 +65,7 @@ const checkUpdateAccount = (account) => {
 const addNewAccount = async (newAccount) => {
     try {
         checkUpdateAccount(newAccount)
-        const res = await fetch('http://localhost:5000/Player', 
+        const res = await fetch('https://tiktaktoprojectback.onrender.com/Player', 
         {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
@@ -87,7 +87,7 @@ const addNewAccount = async (newAccount) => {
 const modifyAccount = async (updateAccount) => {
     try {
         checkUpdateAccount(updateAccount)
-        const res = await fetch(`http://localhost:5000/Player/${updateAccount.id}`, 
+        const res = await fetch(`https://tiktaktoprojectback.onrender.com/Player/${updateAccount.id}`, 
         {
             method: 'PUT', // put = replace all record, all field // patch = edit some field
             headers: { 'content-type': 'application/json' },
